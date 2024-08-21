@@ -1,0 +1,285 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Newtonsoft.Json.Legacy/3.5.9": {
+        "type": "package",
+        "compile": {
+          "lib/net35/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/Newtonsoft.Json.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json.Legacy/3.5.9": {
+      "sha512": "Hmzxr0DMz0w26QYVIa3TUXYUM2Cced4a6LULhBwR1ybhsfw/b/yysg8OAjuDNxypMI2dpG+g8EBUTwRh7mwZ6A==",
+      "type": "package",
+      "path": "newtonsoft.json.legacy/3.5.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/LinqBridge.dll",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35-cf/Newtonsoft.Json.dll",
+        "lib/net35-cf/Newtonsoft.Json.pdb",
+        "lib/net35-cf/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.pdb",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "newtonsoft.json.legacy.3.5.9.nupkg.sha512",
+        "newtonsoft.json.legacy.nuspec",
+        "src/Newtonsoft.Json/Bson/BsonBinaryType.cs",
+        "src/Newtonsoft.Json/Bson/BsonBinaryWriter.cs",
+        "src/Newtonsoft.Json/Bson/BsonObjectId.cs",
+        "src/Newtonsoft.Json/Bson/BsonReader.cs",
+        "src/Newtonsoft.Json/Bson/BsonToken.cs",
+        "src/Newtonsoft.Json/Bson/BsonType.cs",
+        "src/Newtonsoft.Json/Bson/BsonWriter.cs",
+        "src/Newtonsoft.Json/ConstructorHandling.cs",
+        "src/Newtonsoft.Json/Converters/BinaryConverter.cs",
+        "src/Newtonsoft.Json/Converters/BsonObjectIdConverter.cs",
+        "src/Newtonsoft.Json/Converters/CustomCreationConverter.cs",
+        "src/Newtonsoft.Json/Converters/DataSetConverter.cs",
+        "src/Newtonsoft.Json/Converters/DataTableConverter.cs",
+        "src/Newtonsoft.Json/Converters/DateTimeConverterBase.cs",
+        "src/Newtonsoft.Json/Converters/EntityKeyMemberConverter.cs",
+        "src/Newtonsoft.Json/Converters/IsoDateTimeConverter.cs",
+        "src/Newtonsoft.Json/Converters/JavaScriptDateTimeConverter.cs",
+        "src/Newtonsoft.Json/Converters/JsonDateTimeSerializationMode.cs",
+        "src/Newtonsoft.Json/Converters/KeyValuePairConverter.cs",
+        "src/Newtonsoft.Json/Converters/RegexConverter.cs",
+        "src/Newtonsoft.Json/Converters/StringEnumConverter.cs",
+        "src/Newtonsoft.Json/Converters/XmlNodeConverter.cs",
+        "src/Newtonsoft.Json/DefaultValueHandling.cs",
+        "src/Newtonsoft.Json/Dynamic.snk",
+        "src/Newtonsoft.Json/FormatterAssemblyStyle.cs",
+        "src/Newtonsoft.Json/IJsonLineInfo.cs",
+        "src/Newtonsoft.Json/JsonArrayAttribute.cs",
+        "src/Newtonsoft.Json/JsonContainerAttribute.cs",
+        "src/Newtonsoft.Json/JsonConvert.cs",
+        "src/Newtonsoft.Json/JsonConverter.cs",
+        "src/Newtonsoft.Json/JsonConverterAttribute.cs",
+        "src/Newtonsoft.Json/JsonConverterCollection.cs",
+        "src/Newtonsoft.Json/JsonIgnoreAttribute.cs",
+        "src/Newtonsoft.Json/JsonObjectAttribute.cs",
+        "src/Newtonsoft.Json/JsonPropertyAttribute.cs",
+        "src/Newtonsoft.Json/JsonReader.cs",
+        "src/Newtonsoft.Json/JsonReaderException.cs",
+        "src/Newtonsoft.Json/JsonSerializationException.cs",
+        "src/Newtonsoft.Json/JsonSerializer.cs",
+        "src/Newtonsoft.Json/JsonSerializerSettings.cs",
+        "src/Newtonsoft.Json/JsonTextReader.cs",
+        "src/Newtonsoft.Json/JsonTextWriter.cs",
+        "src/Newtonsoft.Json/JsonToken.cs",
+        "src/Newtonsoft.Json/JsonValidatingReader.cs",
+        "src/Newtonsoft.Json/JsonWriter.cs",
+        "src/Newtonsoft.Json/JsonWriterException.cs",
+        "src/Newtonsoft.Json/Linq/ComponentModel/JPropertyDescriptor.cs",
+        "src/Newtonsoft.Json/Linq/ComponentModel/JTypeDescriptionProvider.cs",
+        "src/Newtonsoft.Json/Linq/ComponentModel/JTypeDescriptor.cs",
+        "src/Newtonsoft.Json/Linq/Extensions.cs",
+        "src/Newtonsoft.Json/Linq/IJEnumerable.cs",
+        "src/Newtonsoft.Json/Linq/JArray.cs",
+        "src/Newtonsoft.Json/Linq/JConstructor.cs",
+        "src/Newtonsoft.Json/Linq/JContainer.cs",
+        "src/Newtonsoft.Json/Linq/JEnumerable.cs",
+        "src/Newtonsoft.Json/Linq/JObject.cs",
+        "src/Newtonsoft.Json/Linq/JPath.cs",
+        "src/Newtonsoft.Json/Linq/JProperty.cs",
+        "src/Newtonsoft.Json/Linq/JRaw.cs",
+        "src/Newtonsoft.Json/Linq/JToken.cs",
+        "src/Newtonsoft.Json/Linq/JTokenEqualityComparer.cs",
+        "src/Newtonsoft.Json/Linq/JTokenReader.cs",
+        "src/Newtonsoft.Json/Linq/JTokenType.cs",
+        "src/Newtonsoft.Json/Linq/JTokenWriter.cs",
+        "src/Newtonsoft.Json/Linq/JValue.cs",
+        "src/Newtonsoft.Json/MemberSerialization.cs",
+        "src/Newtonsoft.Json/MissingMemberHandling.cs",
+        "src/Newtonsoft.Json/Newtonsoft.Json.Compact.csproj",
+        "src/Newtonsoft.Json/Newtonsoft.Json.Net20.csproj",
+        "src/Newtonsoft.Json/Newtonsoft.Json.Silverlight.csproj",
+        "src/Newtonsoft.Json/Newtonsoft.Json.csproj",
+        "src/Newtonsoft.Json/NullValueHandling.cs",
+        "src/Newtonsoft.Json/ObjectCreationHandling.cs",
+        "src/Newtonsoft.Json/PreserveReferencesHandling.cs",
+        "src/Newtonsoft.Json/Properties/AssemblyInfo.cs",
+        "src/Newtonsoft.Json/ReferenceLoopHandling.cs",
+        "src/Newtonsoft.Json/Required.cs",
+        "src/Newtonsoft.Json/Schema/Extensions.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchema.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaBuilder.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaConstants.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaException.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaGenerator.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaModel.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaModelBuilder.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaNode.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaNodeCollection.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaResolver.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaType.cs",
+        "src/Newtonsoft.Json/Schema/JsonSchemaWriter.cs",
+        "src/Newtonsoft.Json/Schema/UndefinedSchemaIdHandling.cs",
+        "src/Newtonsoft.Json/Schema/ValidationEventArgs.cs",
+        "src/Newtonsoft.Json/Schema/ValidationEventHandler.cs",
+        "src/Newtonsoft.Json/Serialization/CachedAttributeGetter.cs",
+        "src/Newtonsoft.Json/Serialization/CamelCasePropertyNamesContractResolver.cs",
+        "src/Newtonsoft.Json/Serialization/DefaultContractResolver.cs",
+        "src/Newtonsoft.Json/Serialization/DefaultReferenceResolver.cs",
+        "src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs",
+        "src/Newtonsoft.Json/Serialization/DynamicValueProvider.cs",
+        "src/Newtonsoft.Json/Serialization/ErrorContext.cs",
+        "src/Newtonsoft.Json/Serialization/ErrorEventArgs.cs",
+        "src/Newtonsoft.Json/Serialization/IContractResolver.cs",
+        "src/Newtonsoft.Json/Serialization/IReferenceResolver.cs",
+        "src/Newtonsoft.Json/Serialization/IValueProvider.cs",
+        "src/Newtonsoft.Json/Serialization/JsonArrayContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonDictionaryContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonFormatterConverter.cs",
+        "src/Newtonsoft.Json/Serialization/JsonISerializableContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonLinqContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonObjectContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonPrimitiveContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonProperty.cs",
+        "src/Newtonsoft.Json/Serialization/JsonPropertyCollection.cs",
+        "src/Newtonsoft.Json/Serialization/JsonSerializerInternalBase.cs",
+        "src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs",
+        "src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs",
+        "src/Newtonsoft.Json/Serialization/JsonSerializerProxy.cs",
+        "src/Newtonsoft.Json/Serialization/JsonStringContract.cs",
+        "src/Newtonsoft.Json/Serialization/JsonTypeReflector.cs",
+        "src/Newtonsoft.Json/Serialization/LateBoundMetadataTypeAttribute.cs",
+        "src/Newtonsoft.Json/Serialization/ObjectConstructor.cs",
+        "src/Newtonsoft.Json/Serialization/OnErrorAttribute.cs",
+        "src/Newtonsoft.Json/Serialization/ReflectionValueProvider.cs",
+        "src/Newtonsoft.Json/SerializationBinder.cs",
+        "src/Newtonsoft.Json/StreamingContext.cs",
+        "src/Newtonsoft.Json/TypeNameHandling.cs",
+        "src/Newtonsoft.Json/Utilities/Base64Encoder.cs",
+        "src/Newtonsoft.Json/Utilities/BidirectionalDictionary.cs",
+        "src/Newtonsoft.Json/Utilities/CollectionUtils.cs",
+        "src/Newtonsoft.Json/Utilities/CollectionWrapper.cs",
+        "src/Newtonsoft.Json/Utilities/ConvertUtils.cs",
+        "src/Newtonsoft.Json/Utilities/DateTimeUtils.cs",
+        "src/Newtonsoft.Json/Utilities/DictionaryWrapper.cs",
+        "src/Newtonsoft.Json/Utilities/DynamicReflectionDelegateFactory.cs",
+        "src/Newtonsoft.Json/Utilities/DynamicWrapper.cs",
+        "src/Newtonsoft.Json/Utilities/EnumUtils.cs",
+        "src/Newtonsoft.Json/Utilities/EnumValue.cs",
+        "src/Newtonsoft.Json/Utilities/EnumValues.cs",
+        "src/Newtonsoft.Json/Utilities/ILGeneratorExtensions.cs",
+        "src/Newtonsoft.Json/Utilities/JavaScriptUtils.cs",
+        "src/Newtonsoft.Json/Utilities/LateBoundReflectionDelegateFactory.cs",
+        "src/Newtonsoft.Json/Utilities/ListWrapper.cs",
+        "src/Newtonsoft.Json/Utilities/MathUtils.cs",
+        "src/Newtonsoft.Json/Utilities/MethodCall.cs",
+        "src/Newtonsoft.Json/Utilities/MiscellaneousUtils.cs",
+        "src/Newtonsoft.Json/Utilities/ReflectionDelegateFactory.cs",
+        "src/Newtonsoft.Json/Utilities/ReflectionUtils.cs",
+        "src/Newtonsoft.Json/Utilities/StringBuffer.cs",
+        "src/Newtonsoft.Json/Utilities/StringUtils.cs",
+        "src/Newtonsoft.Json/Utilities/ThreadSafeStore.cs",
+        "src/Newtonsoft.Json/Utilities/ValidationUtils.cs",
+        "src/Newtonsoft.Json/public.pk"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Newtonsoft.Json.Legacy >= 3.5.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Acer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Csharp_Project\\MTools\\MTools.csproj",
+      "projectName": "MTools",
+      "projectPath": "D:\\Csharp_Project\\MTools\\MTools.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "D:\\Csharp_Project\\MTools\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Newtonsoft.Json.Legacy": {
+            "target": "Package",
+            "version": "[3.5.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0”还原包“Newtonsoft.Json.Legacy 3.5.9”。此包可能与项目不完全兼容。",
+      "libraryId": "Newtonsoft.Json.Legacy",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
