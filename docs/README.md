@@ -20,7 +20,7 @@ step1:打开Powershell
 
 step2:cd你下载好源码的目录
 
-step3:<code>Install-Package Newtonsoft.json -ProjectName MTools</code>
+step3:<code>Install-Package Newtonsoft.json</code>
 
 Tips:把MTools改成你的下下来源码之后的项目名
 
